@@ -1,5 +1,33 @@
-baseURL = "http://example.org/"
+title = "Brewer's League"
+baseURL = "https://example.com"
 languageCode = "en-us"
-title = "D&D Brewer's League"
 theme = "ananke"
-builddrafts = "true"
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  description = "D&D at a bar - what else do you need?"
+  facebook = "https://www.facebook.com/shezmucellars"
+  twitter = "https://twitter.com/shezmucellars"
+  instagram = "https://www.instagram.com/shezmucellars/"
+  youtube = ""
+  github = ""
+  gitlab = ""
+  linkedin = "https://www.linkedin.com/company/shezmucellars/"
+  mastodon = ""
+  slack = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-dark-gray"
+  featured_image = "/images/Bar-Pic.jpg"
+  recent_posts_number = 3
