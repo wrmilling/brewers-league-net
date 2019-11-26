@@ -1,4 +1,5 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "D&D Brewer's League"
 theme = "ananke"
+builddrafts = "true"
