@@ -2,6 +2,7 @@
 title: "Brewer's League"
 featured_image: '/images/Bar-Pic.jpg'
 description: "D&D in a bar - what else do you need?"
+draft: false
 ---
 # What is this place?
 
